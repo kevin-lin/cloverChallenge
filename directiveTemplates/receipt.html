@@ -1,0 +1,15 @@
+<h1>Order ID {{order.id}}</h1>
+<ul>
+    <li>{{order.createdTime | date:'medium'}}</li>
+</ul>
+<h3>Items</h3>
+<table width="100%" border="1px">
+    <tr ng-repeat="item in lineItems.elements">
+        <td>{{item.name}}</td>
+        <td>{{item.price | prettyPrice}}</td>
+    </tr>
+    <tr>
+        <td>Total:</td>
+        <td>{{order.total | prettyPrice}}</td>
+    </tr>
+</table>
