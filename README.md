@@ -1,7 +1,7 @@
-Angular Boiler Plate
+Clover Challenge
 ======
 
-This is a simple boilerplate app for an AngularJS website backed by a Node server.
+Using the V3 Orders API endpoint build a web application that retrieves order information and displays a pretty web receipt.
 
 Setup
 =====
